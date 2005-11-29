@@ -1,10 +1,13 @@
-# Makefile -*- mode: Fundamental;-*-
-# $Header: /space/home/eng/cjm/cvs/libdprt/Makefile,v 1.2 2001-05-15 16:43:57 cjm Exp $ 
+# Makefile
+# $Header: /space/home/eng/cjm/cvs/libdprt/Makefile,v 1.3 2005-11-29 16:03:46 cjm Exp $ 
 
 include ../Makefile.common
 include Makefile.common
 
-DIRS = c test
+# Note we must make the object library before rjs and ccs
+# Note we must make rjs before ccs
+# Note we must make jni_general before ccs
+DIRS = object rjs jni_general ccs scs supircam ftspec grope
 
 top:
 	@for i in $(DIRS); \
@@ -53,6 +56,9 @@ backup: tidy checkin
 	compress $(BACKUP_DIR)/libdprt.tar
 
 # $Log: not supported by cvs2svn $
+# Revision 1.2  2001/05/15 16:43:57  cjm
+# New libdprt version.
+#
 # Revision 1.1  2001/05/15 16:42:15  cjm
 # Initial revision
 #
