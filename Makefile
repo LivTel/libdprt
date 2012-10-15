@@ -1,5 +1,5 @@
 # Makefile
-# $Header: /space/home/eng/cjm/cvs/libdprt/Makefile,v 1.5 2007-06-20 13:31:36 cjm Exp $ 
+# $Header: /space/home/eng/cjm/cvs/libdprt/Makefile,v 1.6 2012-10-15 11:05:17 cjm Exp $ 
 
 include ../Makefile.common
 include Makefile.common
@@ -7,7 +7,8 @@ include Makefile.common
 # Note we must make the object library before rjs and ccs
 # Note we must make rjs before ccs
 # Note we must make jni_general before ccs
-DIRS = object rjs jni_general ccs scs supircam ftspec grope
+# Note replaced rjs by ccd_imager
+DIRS = object ccd_imager jni_general ccs scs supircam ftspec grope frodospec
 
 top:
 	@for i in $(DIRS); \
@@ -56,6 +57,9 @@ backup: tidy checkin
 	compress $(BACKUP_DIR)/libdprt.tar
 
 # $Log: not supported by cvs2svn $
+# Revision 1.5  2007/06/20 13:31:36  cjm
+# Changed -C's back to cd's - Solaris doesn't support -C.
+#
 # Revision 1.4  2007/01/09 15:35:31  cjm
 # Changed 'cd's to make -C.
 #
