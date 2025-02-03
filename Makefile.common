@@ -1,0 +1,18 @@
+# $Header: /space/home/eng/cjm/cvs/libdprt/Makefile.common,v 1.1 2025-02-03 14:51:22 cjm Exp $
+
+LIBDPRT_HOME		=libdprt
+LIBDPRT_SRC_HOME	= $(LT_SRC_HOME)/$(LIBDPRT_HOME)
+LIBDPRT_BIN_HOME	= $(LT_BIN_HOME)/$(LIBDPRT_HOME)
+LIBDPRT_DOC_HOME	= $(LT_DOC_HOME)/$(LIBDPRT_HOME)
+
+# We need to access the DpRt bin directory to get DpRtLibrary.class,
+# which is used to generate DpRtLibrary.h
+DPRT_HOME		=dprt
+DPRT_BIN_HOME		= $(LT_BIN_HOME)/$(DPRT_HOME)
+
+# We need to access the JNI General dprt headers from all instrument specific JNI modules.
+JNIGENERALINCDIR	= $(LIBDPRT_SRC_HOME)/jni_general/include
+
+#
+# $Log: not supported by cvs2svn $
+#
