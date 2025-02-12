@@ -1,0 +1,39 @@
+[submodule "ccd_dprt"]
+	path = ccd_dprt
+	url = https://github.com/LivTel/ccd_dprt
+[submodule "jni_general"]
+	path = jni_general
+	url = https://github.com/LivTel/libdprt-jni_general
+[submodule "object"]
+	path = object
+	url = https://github.com/LivTel/libdprt-object
+[submodule "ccs"]
+	path = ccs
+	url = https://github.com/LivTel/libdprt-ccs
+[submodule "frodospec"]
+	path = frodospec
+	url = https://github.com/LivTel/libdprt-frodospec
+[submodule "ftspec"]
+	path = ftspec
+	url = https://github.com/LivTel/libdprt-ftspec
+[submodule "grope"]
+	path = grope
+	url = https://github.com/LivTel/libdprt-grope
+[submodule "ioi"]
+	path = ioi
+	url = https://github.com/LivTel/libdprt-ioi
+[submodule "loci"]
+	path = loci
+	url = https://github.com/LivTel/libdprt-loci
+[submodule "o"]
+	path = o
+	url = https://github.com/LivTel/libdprt-o
+[submodule "scs"]
+	path = scs
+	url = https://github.com/LivTel/libdprt-scs
+[submodule "sprat"]
+	path = sprat
+	url = https://github.com/LivTel/libdprt-sprat
+[submodule "supircam"]
+	path = supircam
+	url = https://github.com/LivTel/libdprt-supircam
