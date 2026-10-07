@@ -8,7 +8,7 @@ include Makefile.common
 # Note we must make rjs before ccs
 # Note we must make jni_general before ccs
 # Note replaced rjs by ccd_imager
-DIRS = object ccd_imager jni_general ccs scs supircam ftspec grope frodospec o sprat
+DIRS = object ccd_imager jni_general ccs scs supircam ftspec grope frodospec loci lumen o sprat
 
 top:
 	@for i in $(DIRS); \

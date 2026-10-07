@@ -37,3 +37,6 @@
 [submodule "supircam"]
 	path = supircam
 	url = https://github.com/LivTel/libdprt-supircam
+[submodule "lumen"]
+	path = lumen
+	url = https://github.com/LivTel/libdprt-lumen
