@@ -24,6 +24,7 @@ The repository should be installed inside the libdprt directory in an LT develop
 - grope (http://github.com/LivTel/libdprt-grope) JNI 'glue' (interface layer) between ngat.dprt.grope.DpRtLibrary (in the dprt repository) and the Ringo build of libdprt/ccd_dprt.
 - ioi (http://github.com/LivTel/libdprt-ioi) JNI 'glue' (interface layer) between ngat.dprt.ioi.DpRtLibrary (in the dprt repository) and the IO:I build of libdprt/ccd_dprt.
 - loci (http://github.com/LivTel/libdprt-loci) JNI 'glue' (interface layer) between ngat.dprt.loci.DpRtLibrary (in the dprt repository) and the LOCI build of libdprt/ccd_dprt.
+- lumen (http://github.com/LivTel/libdprt-lumen) JNI 'glue' (interface layer) between ngat.dprt.lumen.DpRtLibrary (in the dprt repository) and the LUMEN build of libdprt/ccd_dprt.
 - o (http://github.com/LivTel/libdprt-o) JNI 'glue' (interface layer) between ngat.dprt.o.DpRtLibrary (in the dprt repository) and the IO:O build of libdprt/ccd_dprt.
 - scs (http://github.com/LivTel/libdprt-scs) JNI 'glue' (interface layer) between ngat.dprt.scs.DpRtLibrary (in the dprt repository) and the Meaburn Spectrograph build of libdprt/ccd_dprt.
 - sprat (http://github.com/LivTel/libdprt-sprat) JNI 'glue' (interface layer) between ngat.dprt.sprat.DpRtLibrary (in the dprt repository) and the Sprat build of libdprt/ccd_dprt.
