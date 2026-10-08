@@ -29,3 +29,5 @@ The repository should be installed inside the libdprt directory in an LT develop
 - scs (http://github.com/LivTel/libdprt-scs) JNI 'glue' (interface layer) between ngat.dprt.scs.DpRtLibrary (in the dprt repository) and the Meaburn Spectrograph build of libdprt/ccd_dprt.
 - sprat (http://github.com/LivTel/libdprt-sprat) JNI 'glue' (interface layer) between ngat.dprt.sprat.DpRtLibrary (in the dprt repository) and the Sprat build of libdprt/ccd_dprt.
 - supircam (http://github.com/LivTel/libdprt-supircam) JNI 'glue' (interface layer) between ngat.dprt.supircam.DpRtLibrary (in the dprt repository) and the SupIRCam build of libdprt/ccd_dprt.
+
+To bring the parent directory with the latest versions of all the submodules, try something like **git submodule update --init --recursive** .
